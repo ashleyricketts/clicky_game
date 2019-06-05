@@ -1,0 +1,50 @@
+[
+    {
+        "name" : "cheerleader",
+        "url": "cheerleader.jpg"
+    },
+    {
+        "name": "dad",
+        "url": "dad.png"
+    },
+    {
+        "name": "daria",
+        "url": "daria.jpg"
+    },
+    {
+        "name": "jane",
+        "url": "jane.png"
+    },
+    {
+        "name": "jodie",
+        "url": "jodie.jpg"
+    },
+    {
+        "name": "mom",
+        "url": "mom.png"
+    },
+    {
+        "name": "mrdemartino",
+        "url": "mrdemartino.jpg"
+    },
+    {
+        "name": "mroneil",
+        "url": "mroneil.png"
+    },
+    {
+        "name": "principal",
+        "url": "principal.png"
+    },
+    {
+        "name": "quinn",
+        "url": "quinn.png"
+    },
+    {
+        "name": "sandi",
+        "url": "sandi.png"
+    },
+    {
+        "name": "trent",
+        "url": "trent.jpg"
+    }
+]

@@ -10,10 +10,15 @@ import "./App.css";
 
 class App extends Component {
 
+
+  const shuffleArray = (array) => {
+    
+  }
+
   render() {
     return (
       <div className="App">
-          <Navbar />
+          <Navbar topScore={this.state.topScore} currentScore={this.state.currentScore} status={this.state.result} />
           <Header />
           <GameBoard />
           <Footer />
