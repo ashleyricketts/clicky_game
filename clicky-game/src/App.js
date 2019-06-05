@@ -3,9 +3,8 @@ import "./App.css";
 import Navbar from "./components/navbar";
 import Header from "./components/header";
 import GameBoard from "./components/gameboard";
-import Img from "./img/img.json";
+import Img from "./components/img.json";
 
-// import "./App.css";
 
 
 const shuffleArray = (array) => {
@@ -36,16 +35,10 @@ const shuffleArray = (array) => {
       gameOver: false
     };
   
-    // When the page loads and the component mounts,
-    // display starting message
-    componentDidMount() {
-      this.setState({result: "Click a player to get started"})
-    }
-  
     
     // When a player gets clicked,
     // increase points and add id of element to array.
-    clickedPlayer = (id) => {
+    recordPoints = (id) => {
       console.log(`Picture clicked with id: ${id}`);
       if(!this.state.clicked.includes(id)){
         this.pointIncrease();
@@ -114,7 +107,7 @@ const shuffleArray = (array) => {
       <div className="App">
           <Navbar topScore={this.state.topScore} currentScore={this.state.currentScore} status={this.state.result} />
           <Header />
-          <GameBoard />
+          <GameBoard onClickedPlayer={this.recordPoints} />
       </div>
     );
   }

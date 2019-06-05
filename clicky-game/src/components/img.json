@@ -2,61 +2,61 @@
     {
         "id": "1",
         "name" : "cheerleader",
-        "url": "cheerleader.jpg"
+        "url": "../img/cheerleader.jpg"
     },
     {
         "id": "2",
         "name": "dad",
-        "url": "dad.png"
+        "url": "../img/dad.png"
     },
     {
         "id": "3",
         "name": "daria",
-        "url": "daria.jpg"
+        "url": "../img/daria.jpg"
     },
     {
         "id": "4",   
         "name": "jane",
-        "url": "jane.png"
+        "url": "../img/jane.png"
     },
     {
         "id": "5",
         "name": "jodie",
-        "url": "jodie.jpg"
+        "url": "../img/jodie.jpg"
     },
     {
         "id": "6",
         "name": "mom",
-        "url": "mom.png"
+        "url": "../img/mom.png"
     },
     {
         "id": "7",
         "name": "mrdemartino",
-        "url": "mrdemartino.jpg"
+        "url": "../img/mrdemartino.jpg"
     },
     {
         "id": "8",
         "name": "mroneil",
-        "url": "mroneil.png"
+        "url": "../img/mroneil.png"
     },
     {
         "id": "9",
         "name": "principal",
-        "url": "principal.png"
+        "url": "../img/principal.png"
     },
     {
         "id": "10",
         "name": "quinn",
-        "url": "quinn.png"
+        "url": "../img/quinn.png"
     },
     {
         "id": "11",
         "name": "sandi",
-        "url": "sandi.png"
+        "url": "../img/sandi.png"
     },
     {
         "id": "12",
         "name": "trent",
-        "url": "trent.jpg"
+        "url": "../img/trent.jpg"
     }
 ]
