@@ -107,7 +107,16 @@ const shuffleArray = (array) => {
       <div className="App">
           <Navbar topScore={this.state.topScore} currentScore={this.state.currentScore} status={this.state.result} />
           <Header />
-          <GameBoard onClickedPlayer={this.recordPoints} />
+          {this.state.Img.map(card => (
+              <GameBoard
+                onClickedPlayer={this.recordPoints}
+                id={card.id}
+                key={card.id}
+                image={card.image}
+                name={card.name}
+              />
+            ))}
+
       </div>
     );
   }

@@ -6,7 +6,7 @@ const GameBoard = (props) => {
     return (
     <span id={props.id} value={props.id} onClick={() => props.onClickedPlayer(props.id)}>
       <article>
-        <img src={props.url} className="db" alt="game-character" />
+        <img src={props.image} className="db" alt={props.name} />
       </article>
     </span>
   )}
