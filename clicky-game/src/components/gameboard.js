@@ -5,9 +5,9 @@ const GameBoard = (props) => {
     // debugger;
     return (
     <span id={props.id} value={props.id} onClick={() => props.onClickedPlayer(props.id)}>
-      <article>
+      <div class="flex-container"> 
         <img src={props.image} className="db" alt={props.name} />
-      </article>
+      </div>
     </span>
   )}
 
